@@ -1,0 +1,137 @@
+
+
+.nav-item.active .fas {
+    transform: rotate(180deg);
+    transition: transform 0.3s ease;
+}
+
+.nav-item .fas.fa-arrow-right {
+    transition: transform 0.3s ease;
+}
+
+.nav-item.active .fas.fa-arrow-right {
+    transform: rotate(90deg);
+}
+
+.nav-link {
+    color: #eee; /* kolor czarny */
+}
+
+.nav-link:hover {
+    color: #8c8787; /* ciemniejszy kolor czarny podczas najechania */
+    text-decoration: none; /* usuwa podkreślenie */
+}
+
+
+#sidebar {
+    min-height: 100vh;
+}
+
+#sidebar .nav-link {
+    border-radius: 0;
+}
+
+#sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#sidebar .nav-link.active {
+    background-color: #007bff;
+}
+
+#sidebar hr {
+    margin: 0.5rem 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Zmiana koloru nazw restauracji */
+.restaurant button.btn-link {
+    color: #eee; /* Możesz dostosować kolor według własnych preferencji */
+}
+
+
+/* Klasa dla strzałki skierowanej w dół */
+.rotate.down {
+    transform: rotate(90deg);
+}
+
+.category-box {
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: #343a40;
+    margin-bottom: 20px;
+}
+
+.card-header .btn-link {
+    color: white;
+    font-size: 17px;
+    margin: 5px 0 0;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.category-name {
+    color: white;
+    font-weight: bold;
+}
+
+.question {
+    color: white;
+}
+
+.category-box {
+    background-color: #343a40;
+    margin-bottom: 15px;  // Dodajemy odstępy między boxami
+    border-radius: 5px;  // Zaokrąglenie rogów
+}
+
+.category-box .btn-link {
+    color: white;  // Biały kolor dla tekstu przycisku
+}
+
+.table {
+    background-color: #343a40;  // Kolor tła dla tabeli
+}
+
+.table th, .table td {
+    border-color: white;  // Biały kolor dla obramowania komórek tabeli
+}
+
+.left-navbar {
+    height: 120px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    margin-top: 20px; /* Możesz dostosować wartość według potrzeb */
+}
+
+.audit-details {
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.audit-details p {
+    margin: 5px 0;
+    color: white;    
+}
+
+.audit-details p, 
+#audytyCollapse p {
+    color: white;
+}
+
+

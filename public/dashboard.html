@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Administracyjny</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+        <nav class="navbar navbar-dark bg-dark left-navbar col-md-12">
+            <div class="navbar-brand">
+                <h2 class="mb-0">Panel Administratora</h2>
+            </div>
+        </nav>
+                </div>   
+        <div class="row">    
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
+                <div class="position-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/index.html">
+                                Strona Główna
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#">
+                                Dashboard
+                            </a>
+                        </li>
+                        <hr class="my-2">
+                        <li class="nav-item">
+                            <a class="nav-link audyty-link" data-toggle="collapse" href="#audyty" role="button" aria-expanded="false" aria-controls="audyty">
+                                <i class="bi bi-chevron-right"></i> Audyty
+                            </a>
+                            <div class="collapse" id="audyty">
+                                
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="collapse" href="#restauracje" role="button" aria-expanded="false" aria-controls="restauracje">
+                                <i class="bi bi-chevron-right"></i> Restauracje
+                            </a>
+                            <div class="collapse" id="restauracje">
+                                
+                            </div>
+                        </li>
+
+
+                    </ul>
+                </div>
+            </nav>
+
+
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 bg-light">
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/adminScript.js"></script>
+
+</body>
+
+</html>
