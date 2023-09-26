@@ -23,10 +23,6 @@ Technologies used in the project:
 *   html
 *   bootstrap
 
-<h2>🔌 Contant</h2>
-
-krystianraczynski01@gmail.com
-
 <h2>🚀 Demo</h2>
 
 
@@ -36,3 +32,7 @@ https://github.com/KRacz0/AuditWebsite/assets/43791007/0be548de-62ad-4719-aff0-3
 
 https://github.com/KRacz0/AuditWebsite/assets/43791007/bfebbc8c-cbe0-4cb9-a81f-5414481aa2fb
 
+
+<h2>🔌 Contant</h2>
+
+krystianraczynski01@gmail.com
